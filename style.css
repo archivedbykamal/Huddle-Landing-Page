@@ -1,0 +1,139 @@
+html {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg-desktop.svg");
+  background-color: #6648B1;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+.nav {
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-right: 0;
+}
+
+.footer {
+  bottom: 3%;
+  left: 80%;
+  width: 30%;
+  height: 10%;
+  font-size: 2rem;
+  position: absolute;
+  margin-left: 100% display: inline-block;
+}
+
+.fa-facebook-official {
+  padding-right: 20px;
+  font-size: 2rem;
+}
+
+.fa-instagram {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2rem;
+}
+
+.fa-twitter {
+  padding-left: 20px;
+  font-size: 2rem;
+}
+
+.col1 {
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 30%;
+  font-size: 1rem;
+}
+
+.col1 img {
+  width: 250%;
+}
+
+.col2 {
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 60%;
+}
+
+.registerbtn {
+  margin-top: 30px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  width: 30%;
+  color: #6648B1;
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nav-pic {
+    width: 30%;
+  }
+
+  .col1 {
+    width: 50%;
+  }
+
+  .col1 img {
+    width: 100%;
+  }
+
+  .col2 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+  }
+
+  .col2 p {
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+  }
+
+  .registerbtn {
+    width: 30%;
+    margin-left: 75px;
+    margin-top: 30px;
+  }
+
+  .footer {
+    font-size: 1rem;
+    position: absolute;
+    align-items: center;
+    width: 50%;
+    top: 589.797;
+    margin-top: 59px;
+    bottom: 0;
+    left: 70px;
+    top: 550px;
+  }
+
+  .fa-facebook-official {
+    margin-top: 24px;
+    margin-left: 40px;
+  }
+}

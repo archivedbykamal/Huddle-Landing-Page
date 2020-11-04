@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bg-desktop.svg");
+  background-color: #6648B1;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+nav{
+  margin: 1.5em 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+
+}
+.col-1{
+  width: calc(50% - 5vw);
+  margin: 0 2em;
+}
+.col-1 img{
+  width: 100%;
+}
+.col-2{
+  width: 50%;
+  margin: 0 2em;
+}
+.col-2 h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+footer{
+  text-align: center;
+  padding: 2em 0;
+}
+footer span{
+  margin: 0 .5em;
+}
+.fs-13{
+  font-size: 2.5rem !important;
+}
+.registerbtn {
+  margin-top: 1.8rem;
+  border: none;
+  padding: 1em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-top-left-radius: 28px;
+  border-bottom-left-radius: 28px;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+  color: #6648B1;
+  background-color: rgb(255, 255, 255);
+}
+.registerbtn:hover{
+  padding: 1em 5em;
+}
+@media (max-width: 1023px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .col-1, .col-2{
+    width: 100%;
+    margin: 1.5em 0;
+  }
+
+}
